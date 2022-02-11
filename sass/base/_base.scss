@@ -1,0 +1,14 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html{
+	/* to make it easy to use rem units. Divide 10px by 16 = 0.625
+  This is asuming the default browser uses 16px but it allows flexibility
+  if the user wants a bigger letter in their phones or whatever */
+	font-size: 62.5%;
+}

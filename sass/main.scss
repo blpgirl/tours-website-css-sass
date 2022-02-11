@@ -1,0 +1,27 @@
+/* code that doesn't print so functions,
+mixins that are blocks of codes to reuse and
+variables definition */
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+/* components for my website so independent elements
+that I can reuse throughout the website or on other projects */
+@import "components/button";
+@import "components/card";
+@import "components/composition";
+@import "components/feature-box";
+
+/* common elements shared throughout our website */
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
+
+/* for multiple pages, styles that only apply to that page.
+Here we only have home */
+@import "pages/home";
