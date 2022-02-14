@@ -12,10 +12,13 @@ variables definition */
 
 /* components for my website so independent elements
 that I can reuse throughout the website or on other projects */
+@import "components/bg-video";
 @import "components/button";
 @import "components/card";
 @import "components/composition";
 @import "components/feature-box";
+@import "components/form";
+@import "components/story";
 
 /* common elements shared throughout our website */
 @import "layout/grid";
