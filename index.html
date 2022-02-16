@@ -75,6 +75,10 @@
                 <div class="col-1-of-2">
                     <div class="composition">
 
+                        <!-- 300w or 1000w is to tell the browser the width of my image -->
+                        <!-- with sizes property I can define which is shown in which screen size -->
+                        <!-- vw = pixels width image / screen size  so example a phone 171px / 900px width image = 0.19vw -->
+                        <!-- src in case the browser is old and don't have srcset -->
                         <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
                              sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
                              alt="Photo 1"
@@ -436,6 +440,8 @@
           <div class="footer__logo-box">
 
               <picture class="footer__logo">
+                  <!-- the 1x or 2x is a density descriptor so the browser uses the one that fits best according to screen resolution -->
+                  <!-- and then the media is for the screen width it uses x image or y image so it can be totally different in content/size -->
                   <source srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
                           media="(max-width: 37.5em)">
                   <img srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x" alt="Full logo" src="img/logo-green-2x.png">
