@@ -313,7 +313,7 @@
             </div>
 
             <div class="u-center-text u-margin-top-huge">
-                <a href="#" class="btn-text btn-dark-green">Read all stories &rarr;</a>
+                <a href="./stories.html" class="btn-text btn-dark-green">Read all stories &rarr;</a>
             </div>
         </section> <!-- Section stories -->
 
